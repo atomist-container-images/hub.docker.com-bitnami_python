@@ -5,14 +5,20 @@ FROM bitnami/python:3.10.4
 FROM bitnami/python:3.10-debian-10
 FROM bitnami/python:3.10
 
+# Tags: 2.7.18-debian-10-r669, 2.7.18, 2-debian-10, 2
+FROM bitnami/python:2.7.18-debian-10-r669
+FROM bitnami/python:2.7.18
+FROM bitnami/python:2-debian-10
+FROM bitnami/python:2
+
+# Tags: _
+FROM bitnami/python:_
+
 # Tags: 3.9.12-debian-10-r7, 3.9.12, 3.9-debian-10, 3.9
 FROM bitnami/python:3.9.12-debian-10-r7
 FROM bitnami/python:3.9.12
 FROM bitnami/python:3.9-debian-10
 FROM bitnami/python:3.9
-
-# Tags: _
-FROM bitnami/python:_
 
 # Tags: 3.7.13-debian-10-r15, 3.7.13, 3.7-debian-10, 3.7
 FROM bitnami/python:3.7.13-debian-10-r15
@@ -26,11 +32,8 @@ FROM bitnami/python:3.8.13
 FROM bitnami/python:3.8-debian-10
 FROM bitnami/python:3.8
 
-# Tags: 2.7.18-debian-10-r668, 2.7.18, 2-debian-10, 2
+# Tags: 2.7.18-debian-10-r668
 FROM bitnami/python:2.7.18-debian-10-r668
-FROM bitnami/python:2.7.18
-FROM bitnami/python:2-debian-10
-FROM bitnami/python:2
 
 # Tags: 3.9.12-debian-10-r6
 FROM bitnami/python:3.9.12-debian-10-r6
