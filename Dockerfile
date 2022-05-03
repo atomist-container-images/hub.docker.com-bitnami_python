@@ -1,3 +1,24 @@
+# Tags: 2.7.18-debian-10-r701, 2.7.18, 2-debian-10, 2
+FROM bitnami/python:2.7.18-debian-10-r701
+FROM bitnami/python:2.7.18
+FROM bitnami/python:2-debian-10
+FROM bitnami/python:2
+
+# Tags: _
+FROM bitnami/python:_
+
+# Tags: 3.9.12-debian-10-r40, 3.9.12, 3.9-debian-10, 3.9
+FROM bitnami/python:3.9.12-debian-10-r40
+FROM bitnami/python:3.9.12
+FROM bitnami/python:3.9-debian-10
+FROM bitnami/python:3.9
+
+# Tags: 3.7.13-debian-10-r48, 3.7.13, 3.7-debian-10, 3.7
+FROM bitnami/python:3.7.13-debian-10-r48
+FROM bitnami/python:3.7.13
+FROM bitnami/python:3.7-debian-10
+FROM bitnami/python:3.7
+
 # Tags: latest, 3.10.4-debian-10-r40, 3.10.4, 3.10-debian-10, 3.10
 FROM bitnami/python:latest
 FROM bitnami/python:3.10.4-debian-10-r40
@@ -5,32 +26,20 @@ FROM bitnami/python:3.10.4
 FROM bitnami/python:3.10-debian-10
 FROM bitnami/python:3.10
 
-# Tags: _
-FROM bitnami/python:_
-
 # Tags: 3.8.13-debian-10-r47, 3.8.13, 3.8-debian-10, 3.8
 FROM bitnami/python:3.8.13-debian-10-r47
 FROM bitnami/python:3.8.13
 FROM bitnami/python:3.8-debian-10
 FROM bitnami/python:3.8
 
-# Tags: 2.7.18-debian-10-r700, 2.7.18, 2-debian-10, 2
+# Tags: 2.7.18-debian-10-r700
 FROM bitnami/python:2.7.18-debian-10-r700
-FROM bitnami/python:2.7.18
-FROM bitnami/python:2-debian-10
-FROM bitnami/python:2
 
-# Tags: 3.9.12-debian-10-r39, 3.9.12, 3.9-debian-10, 3.9
+# Tags: 3.9.12-debian-10-r39
 FROM bitnami/python:3.9.12-debian-10-r39
-FROM bitnami/python:3.9.12
-FROM bitnami/python:3.9-debian-10
-FROM bitnami/python:3.9
 
-# Tags: 3.7.13-debian-10-r47, 3.7.13, 3.7-debian-10, 3.7
+# Tags: 3.7.13-debian-10-r47
 FROM bitnami/python:3.7.13-debian-10-r47
-FROM bitnami/python:3.7.13
-FROM bitnami/python:3.7-debian-10
-FROM bitnami/python:3.7
 
 # Tags: 3.10.4-debian-10-r39
 FROM bitnami/python:3.10.4-debian-10-r39
@@ -457,15 +466,3 @@ FROM bitnami/python:3.8.13-debian-10-r18
 
 # Tags: 2.7.18-debian-10-r672
 FROM bitnami/python:2.7.18-debian-10-r672
-
-# Tags: 3.9.12-debian-10-r10
-FROM bitnami/python:3.9.12-debian-10-r10
-
-# Tags: 3.10.4-debian-10-r10
-FROM bitnami/python:3.10.4-debian-10-r10
-
-# Tags: 3.7.13-debian-10-r18
-FROM bitnami/python:3.7.13-debian-10-r18
-
-# Tags: 3.8.13-debian-10-r17
-FROM bitnami/python:3.8.13-debian-10-r17
